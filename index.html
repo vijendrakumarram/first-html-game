@@ -2,15 +2,23 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Click the Box Game</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Tank Shooter Game</title>
   <link rel="stylesheet" href="style.css" />
 </head>
 <body>
-  <h1>Click the Box!</h1>
+  <h1>🚀 Tank Shooter Game</h1>
   <p>Score: <span id="score">0</span></p>
-  <div id="game-container">
-    <div id="box"></div>
+
+  <div id="game-area">
+    <div id="tank"></div>
+  </div>
+
+  <!-- Mobile Controls -->
+  <div id="controls">
+    <button id="left-btn">◀</button>
+    <button id="fire-btn">🔥</button>
+    <button id="right-btn">▶</button>
   </div>
 
   <script src="script.js"></script>
